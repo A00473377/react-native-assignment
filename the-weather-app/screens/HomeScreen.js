@@ -25,7 +25,6 @@ const HomeScreen = () => {
         )
           .then((res) => res.json())
           .then((json) => {
-            console.log(json);
             setWeatherData({
               temperature: json.main.temp,
               locationName: json.name,
@@ -35,7 +34,6 @@ const HomeScreen = () => {
             setIsLoading(false);
           })
           .catch((err) => {
-            console.log(err);
             setError(true);
           });
     };
