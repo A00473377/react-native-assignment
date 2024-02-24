@@ -3,6 +3,7 @@ import { View, Text, StyleSheet, Image } from "react-native";
 
 const Weather = ({ weatherData }) => {
   return (
+    
     <View style={styles.weatherContainer}>
       <View style={styles.headerContainer}>
         <Image
