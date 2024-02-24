@@ -5,4 +5,7 @@ Author: ZAID SHAIKH
 
 
 Assignment Objectives:
-
+1. Fetch Current Location and Show weather to User
+2. User can search for a city and Display weather for that city
+3. User can save that location
+4. User can see the list of locationsn saved alongwith weather for those locations 
